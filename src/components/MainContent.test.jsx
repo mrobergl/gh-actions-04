@@ -10,7 +10,7 @@ describe('MainContent', () => {
 
     expect(screen.getByRole('button')).toBeInTheDocument();
   });
-
+  // This is a comment --> I don't want trigger a workflow for this test file
   it('should show the help area after clicking the button', async () => {
     render(<MainContent />);
 
